@@ -31,7 +31,7 @@ https://www.youtube.com/watch?v=JrFoFBNfv7A
 
 Quelles différences avec le cas de l'hopital ?
 
-Quel consaquence pour la PME ?
+Quel conséquence pour la PME ?
 
 
 ## Etre prêts
