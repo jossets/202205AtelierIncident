@@ -82,7 +82,18 @@ Comprendre pour anticiper ce qui va se passer
 
 ![Process Forensic](img/forensic_process.png)
 
+- Data integrity: Ne rien faire qui puisse invalider une preuve au tribunal
+- Audit trail: On trace TOUT ce qui est fait sur les preuves 
+- Specialist support: Toute preuve doit être notifée à un expert.
+- Appropriate training: Les intervnants de premier niveau doivent être formés
+- Legality: Le responsable doit s'assurer que tout est fait dansun cadre légal
+
 ![OSCAR](img/oscar.png)
+- Obtain information
+- Strategize
+- Collect evidence
+- Analyse
+- Report
 
 
 ### Analyse d'un disque 
@@ -96,8 +107,8 @@ Comprendre pour anticiper ce qui va se passer
 - Chercher les fichiers effacés 
 
 Images de disque
-- [datas/usb1.img]
-- [datas/usb2.img] 
+- (datas/usb1.img)
+- (datas/usb2.img) 
 
 Outils:
 - file 
@@ -105,14 +116,14 @@ Outils:
 - photorec  
 
 References:
-[https://tldp.org/LDP/sag/html/partitions.html]
+(https://tldp.org/LDP/sag/html/partitions.html)
 
 
 ### Analyse d'une trace réseau: Exfiltration de données  
 
 
-- [datas/exfiltration_dns.pcap] Exfiltration DNS
-- [datas/exfiltration_ping.pcap] Exfiltration Ping
+- (datas/exfiltration_dns.pcap) Exfiltration DNS
+- (datas/exfiltration_ping.pcap) Exfiltration Ping
  
  
 Outils
@@ -148,8 +159,8 @@ tshark -r exfiltration.pcap -Y 'icmp'
 - CRC 
 
 Se créer un compte sur root me. 
-Etudier le chall: https://www.root-me.org/fr/Challenges/Forensic/Analyse-de-logs-attaque-web
-- [datas/ch13.txt] 
+Etudier le chall: (https://www.root-me.org/fr/Challenges/Forensic/Analyse-de-logs-attaque-web)
+- (datas/ch13.txt)
 
 
 
