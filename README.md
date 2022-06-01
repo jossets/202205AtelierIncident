@@ -25,7 +25,7 @@ Quelles sont les conséquences pour les médecins, les patients ?
 Quel est le message du DSI
 
 
-Envoyé spéciale: 30 min
+Envoyé spécial: 30 min
 
 https://www.youtube.com/watch?v=JrFoFBNfv7A
 
