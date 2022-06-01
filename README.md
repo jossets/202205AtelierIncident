@@ -48,11 +48,11 @@ Quel conséquence pour la PME ?
 
 - Avoir anticipé le pire 
 
-- Gérer l'incident en temps réel
+- Gérer l'incident en temps réel, continuer de fonctionner
   
-- Plan de reprise d'activité 
+- Plan de reprise d'activité, remettre dans les applis ce qui a été fait à la main 
 
-- Analyse à froid 
+- Analyse à froid, comprendre, éviter que ça recommence, aller au tribunal avec des preuves
 
 
 Le role des process, des SOC, des formations 
@@ -75,29 +75,86 @@ https://www.enisa.europa.eu
 
 Comprendre pour anticiper ce qui va se passer 
 
+
+
 ### Process forensic 
 
 
-![Process Forensic](forensic_process.png)
+![Process Forensic](img/forensic_process.png)
 
 ![OSCAR](img/oscar.png)
 
 
 ### Analyse d'un disque 
 
-Réaliser une 
+- Faire une copie du disque avec une interface lecture seule [https://en.wikipedia.org/wiki/Forensic_disk_controller]
+- Travailler sur une copie de la copie 
 
-### Analyse d'une trace réseau: Exfiltration de données 1 
+- Analyser le disque (format, partitions)
+- Monter le disk en lecture seule 
+- Analyser le contenu existant
+- Chercher les fichiers effacés 
 
+Images de disque
+- [datas/usb1.img]
+- [datas/usb2.img] 
+
+Outils:
+- file 
+- mount / umount 
+- photorec  
+
+References:
+[https://tldp.org/LDP/sag/html/partitions.html]
+
+
+### Analyse d'une trace réseau: Exfiltration de données  
+
+
+- [datas/exfiltration_dns.pcap] Exfiltration DNS
+- [datas/exfiltration_ping.pcap] Exfiltration Ping
  
-### Analyse d'une trace réseau: Bruteforce sql d'une base de données
-
-Se créer un compte sur root me.
  
+Outils
+- wireshark 
+- tshark 
+- python 
+
+Extraction de champs:
+```
+tshark -nr cap.pcap -Y "dns.flags.response == 0" -T fields -e dns.qry.name
+```
+
+Filtrer les protocoles 
+```
+tshark -r exfiltration.pcap |awk '{print $6}' |sort -u
+```
+
+Domaines de requete DNS 
+```
+tshark -r exfiltration.pcap -Y 'dns' -Tfields -e dns.qry.name |sort -u
+```
+
+Ping
+```
+tshark -r exfiltration.pcap -Y 'icmp'
+```
+
+
+### Analyse de logs: Bruteforce sql d'une base de données 
+
+- Système de collecte de logs centralisé
+- Time stamps 
+- CRC 
+
+Se créer un compte sur root me. 
 Etudier le chall: https://www.root-me.org/fr/Challenges/Forensic/Analyse-de-logs-attaque-web
+- [datas/ch13.txt] 
 
 
-### Analyse de logs 
+
+
+ 
 
 
 
