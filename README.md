@@ -107,7 +107,7 @@ Comprendre pour anticiper ce qui va se passer
 - Chercher les fichiers effacés 
 
 Images de disque
-- (datas/usb1.img)
+- (datas/usb1.img)[datas/usb1.img]
 - (datas/usb2.img) 
 
 Outils:
