@@ -122,8 +122,8 @@ References:
 ### Analyse d'une trace réseau: Exfiltration de données  
 
 
-- (/datas/exfiltration_dns.pcap)(/datas/exfiltration_dns.pcap) Exfiltration DNS
-- (/datas/exfiltration_ping.pcap)(/datas/exfiltration_dns.pcap) Exfiltration Ping
+- [datas/exfiltration_dns.pcap](./datas/exfiltration_dns.pcap) Exfiltration DNS
+- [datas/exfiltration_ping.pcap](./datas/exfiltration_dns.pcap) Exfiltration Ping
  
  
 Outils
@@ -160,7 +160,7 @@ tshark -r exfiltration.pcap -Y 'icmp'
 
 Se créer un compte sur root me. 
 Etudier le chall: (https://www.root-me.org/fr/Challenges/Forensic/Analyse-de-logs-attaque-web)
-- (datas/ch13.txt)
+- [datas/ch13.txt](datas/ch13.txt)
 
 
 
