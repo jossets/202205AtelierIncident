@@ -5,26 +5,40 @@
 ## cyberattaque au CHU de Rouen
 
 Info: 1 min
+
 https://www.youtube.com/watch?v=TqojSAQvCAs
 
 Europe 1: 2 min
+
 https://www.youtube.com/watch?v=OnoIzhajFvw
 
 Directeur Hopital: 7 min 
+
 https://www.youtube.com/watch?v=tJro-tSV0qs
 
 Que s'est-il passé ?
+
 Comment l'hopital a-t-il réagit ?
+
 Quelles sont les conséquences pour les médecins, les patients ?
+
 Quel est le message du DSI
 
 
 Envoyé spéciale: 30 min
+
 https://www.youtube.com/watch?v=JrFoFBNfv7A
+
 Quelles différences avec le cas de l'hopital ?
+
 Quel consaquence pour la PME ?
 
+
 ## Etre prêts
+
+https://www.enisa.europa.eu
+
+https://www.ssi.gouv.fr/
 
 
 
